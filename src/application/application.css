@@ -1,1 +1,27 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color: #3399FF
+	
+}
+
+.label{
+	-fx-font-size: 20;
+	
+	-fx-alignment: center;
+	-fx-font-family: "verdana";
+	-fx-text-fill: "white";
+}
+
+.button{
+	
+	-fx-background-color: #FFCC66;
+	-fx-font-size: 14;
+	-fx-font-family: "verdana";
+	-fx-text-fill: #0066CC;
+	
+}
+
+#labelResult{
+	fx-alignment: center;
+	fx-font-size: 15;
+}
