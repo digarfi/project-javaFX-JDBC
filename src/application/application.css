@@ -4,18 +4,25 @@
 	
 }
 
+.VBox{
+	-fx-background-color: #3399FF
+}
+.MenuBar{
+	-fx-background-color: #3399FF
+}
+
 .label{
-	-fx-font-size: 20;
+	-fx-font-size: 14;
 	
 	-fx-alignment: center;
 	-fx-font-family: "verdana";
-	-fx-text-fill: "white";
+	-fx-text-fill: #3399FF;
 }
 
 .button{
 	
 	-fx-background-color: #FFCC66;
-	-fx-font-size: 14;
+	-fx-font-size: 12;
 	-fx-font-family: "verdana";
 	-fx-text-fill: #0066CC;
 	
