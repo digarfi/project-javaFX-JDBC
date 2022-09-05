@@ -19,16 +19,14 @@ public class Main extends Application {
 			 FXMLLoader loader = new FXMLLoader(getClass().getResource("/gui/MainView.fxml")); 
 			 ScrollPane scrollPane = loader.load(); 
 			
-			 /*String css = this.getClass().getResource("application.css").toExternalForm();
-			 scrollPane.getStylesheets().add(css);*/
+			 String css = this.getClass().getResource("application.css").toExternalForm();
+			 scrollPane.getStylesheets().add(css);
 				
-			
-			 			 
+						 			 
 			 scrollPane.setFitToWidth(true);
 			 scrollPane.setFitToHeight(true);
 			 
-			
-			 
+						 
 			 mainScene = new Scene(scrollPane);
 			 primaryStage.setScene(mainScene); 
 			 primaryStage.setTitle("Sample JavaFX application"); 

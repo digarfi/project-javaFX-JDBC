@@ -1,34 +1,6 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
-.root{
-	-fx-background-color: #3399FF
-	
-}
-
-.VBox{
-	-fx-background-color: #3399FF
-}
-.MenuBar{
-	-fx-background-color: #3399FF
-}
-
-.label{
-	-fx-font-size: 14;
-	
-	-fx-alignment: center;
-	-fx-font-family: "verdana";
-	-fx-text-fill: #3399FF;
-}
-
-.button{
-	
+.ScrollPane{
 	-fx-background-color: #FFCC66;
-	-fx-font-size: 12;
-	-fx-font-family: "verdana";
-	-fx-text-fill: #0066CC;
 	
 }
 
-#labelResult{
-	fx-alignment: center;
-	fx-font-size: 15;
-}
