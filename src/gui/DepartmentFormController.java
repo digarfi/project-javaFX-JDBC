@@ -132,7 +132,7 @@ public class DepartmentFormController implements Initializable {
 	
 	public void updateFormData() {
 		if (entity == null) {
-			throw new IllegalStateException("Entity waa null");
+			throw new IllegalStateException("Entity was null");
 		}
 		
 		txtId.setText(String.valueOf(entity.getId()));
@@ -145,11 +145,5 @@ public class DepartmentFormController implements Initializable {
 		if (fields.contains("name")) {
 			labelErrorName.setText(errors.get("name"));
 		}
-		
-		
-		
 	}
-	
-	
-
 }
